@@ -67,9 +67,9 @@ todo-pro/
 
 ---
 
-## 📸 Screenshot (Optional)
+## 📸 Screenshot 
 
-*Add a screenshot of your app here*
+![alt text](image.png)
 
 ---
 
