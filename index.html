@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pro Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Task Manager 🚀</h1>
+
+  <form id="todoForm">
+    <input type="text" id="todoInput" placeholder="Task..." required>
+    <input type="date" id="dueDate">
+    <button>Add</button>
+  </form>
+
+  <div class="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="active">Active</button>
+    <button data-filter="completed">Completed</button>
+  </div>
+
+  <ul id="todoList"></ul>
+  <p id="taskCount"></p>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
